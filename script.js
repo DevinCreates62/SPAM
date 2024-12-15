@@ -6,7 +6,7 @@ function sendPing() {
     const message = {
         content: "@everyone",
         username: "SPAMER",
-        avatar_url: "spam.jpeg"
+        avatar_url: "spam.jpg"
     };
 
     fetch(webhookURL, {
